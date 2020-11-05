@@ -1,0 +1,112 @@
+.container  {
+    width: 100%;
+}
+
+section {
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px dashed #444;
+}
+
+.block {
+    width: 75px;
+    height: 75px;
+    margin: 25px;
+    border: 2px solid #333;
+}
+
+.active {
+    background: orange;
+}
+
+.hide {
+    display: none;
+}
+
+
+/*                     key                 */
+.keyboard{
+    margin: 20px;
+    width: 780px;
+    position: relative;
+    padding: 5px;
+    border: 2px solid black;
+}
+.block-flo::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.block-key{
+    text-transform: uppercase;
+    float: left;
+    padding: 5px;
+    border: 1px solid black;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+}
+.block-key:hover{
+    background: gray;
+    cursor: pointer;
+}
+.letter {
+    font-size: 10px;
+}
+.plus{
+    position: absolute;
+    padding-bottom: 68px;
+    left: 725px;
+    line-height: 70px;
+    font-size: 20px;
+}
+.ent{
+    position: absolute;
+    padding-bottom: 68px;
+    left: 725px;
+    line-height: 70px;
+    font-size: 12px;
+}
+
+.win{
+    font-size: 25px;
+    line-height: 22px;
+}
+.back{
+    width: 75px;
+}
+.tab{
+    width: 60px;
+}
+.caps{
+    width: 70px;
+}
+.lshift{
+    width: 85px;
+}
+.rshift{
+    width: 65px;
+}
+.tilda{
+    width: 50px;
+}
+.enter{
+    width: 80px;
+}
+.lctrl{
+    width: 50px;
+}
+.rctrl{
+    width: 60px;
+}
+.space{
+    width: 195px;
+}
+.data-style{
+    background: gray;
+}
+.capsLock{
+background: red;
+}

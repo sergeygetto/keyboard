@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://unpkg.com/mustard-ui@latest/dist/css/mustard-ui.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Unit 20</title>
+</head>
+
+<body>
+    <div class="container">
+        <!-- <h1>Unit 20. События клавиатуры</h1> -->
+
+        
+            <div>
+
+                <input type="text" class="i-11">
+                <div class="out-11">
+                </div>
+        </section>
+        
+        <div class="keyboard">
+        <div class="block-flo">
+            <div class="block-key" data-1="192">`</div>
+            <div class="block-key" data-1="49">1</div>
+            <div class="block-key" data-1="50">2</div>
+            <div class="block-key" data-1="51">3</div>
+            <div class="block-key" data-1="52">4</div>
+            <div class="block-key" data-1="53">5</div>
+            <div class="block-key" data-1="54">6</div>
+            <div class="block-key" data-1="55">7</div>
+            <div class="block-key" data-1="56">8</div>
+            <div class="block-key" data-1="57">9</div>
+            <div class="block-key" data-1="48">0</div>
+            <div class="block-key" data-1="189">-</div>
+            <div class="block-key" data-1="187">=</div>
+            <div class="block-key back letter" data-1="8">Back</div>
+            <div class="block-key letter" data-1="144" >Num</div>
+            <div class="block-key" data-1="111">/</div>
+            <div class="block-key" data-1="106">*</div>
+            <div class="block-key" data-1="109">-</div>
+        </div>
+        <div class="block-flo">
+            <div class="block-key tab letter" data-1="9">Tab</div>
+            <div class="block-key" data-1="81">q</div>
+            <div class="block-key" data-1="87">w</div>
+            <div class="block-key" data-1="69">e</div>
+            <div class="block-key" data-1="82">r</div>
+            <div class="block-key" data-1="84">t</div>
+            <div class="block-key" data-1="89">y</div>
+            <div class="block-key" data-1="85">u</div>
+            <div class="block-key" data-1="73">i</div>
+            <div class="block-key" data-1="79">o</div>
+            <div class="block-key" data-1="80">p</div>
+            <div class="block-key" data-1="219">[</div>
+            <div class="block-key" data-1="221">]</div>
+            <div class="block-key tilda letter" data-1="220">\</div>
+            <div class="block-key" data-1="103">7</div>
+            <div class="block-key" data-1="104">8</div>
+            <div class="block-key" data-1="105">9</div>
+            <div class="block-key plus" data-1="107">+</div>
+        </div>
+        <div class="block-flo">
+            <div class="block-key caps letter lock key" data-1="20">Caps Lock</div>
+            <div class="block-key" data-1="65">a</div>
+            <div class="block-key" data-1="83">s</div>
+            <div class="block-key" data-1="68">d</div>
+            <div class="block-key" data-1="70">f</div>
+            <div class="block-key" data-1="71">g</div>
+            <div class="block-key" data-1="72">h</div>
+            <div class="block-key" data-1="74">j</div>
+            <div class="block-key" data-1="75">k</div>
+            <div class="block-key" data-1="76">l</div>
+            <div class="block-key" data-1="186">;</div>
+            <div class="block-key" data-1="222">"</div>
+            <div class="block-key enter letter" data-1="13">Enter</div>
+            <div class="block-key" data-1="100">4</div>
+            <div class="block-key" data-1="101">5</div>
+            <div class="block-key" data-1="102">6</div>
+        </div>
+        <div class="block-flo">
+            <div class="block-key lshift letter" data-1="16">shift</div>
+            <div class="block-key" data-1="90">z</div>
+            <div class="block-key" data-1="88">x</div>
+            <div class="block-key" data-1="67">c</div>
+            <div class="block-key" data-1="86">v</div>
+            <div class="block-key" data-1="66">b</div>
+            <div class="block-key" data-1="78">n</div>
+            <div class="block-key" data-1="77">m</div>
+            <div class="block-key" data-1="188">,</div>
+            <div class="block-key" data-1="190">.</div>
+            <div class="block-key" data-1="191">?</div>
+            <div class="block-key rshift letter" data-1="16">shift</div>
+            <div class="block-key" data-1="38">&#8593;</div>
+            <div class="block-key" data-1="97">1</div>
+            <div class="block-key" data-1="98">2</div>
+            <div class="block-key" data-1="99">3</div>
+            <div class="block-key ent" data-1="13">ent</div>
+        </div>
+        <div class="block-flo">
+            <div class="block-key lctrl letter" data-1="17">Ctrl</div>
+            <div class="block-key letter" data-1=" ">Fn</div>
+            <div class="block-key letter win" data-1="91">&#10070;</div>
+            <div class="block-key lalt letter" data-1="18">Alt</div>
+            <div class="block-key space letter" data-1="32">Space</div>
+            <div class="block-key ralt letter" data-1="18">Alt</div>
+            <div class="block-key letter win" data-1=" ">&#10070;</div>
+            <div class="block-key rctrl letter" data-1="17">Ctrl</div>
+            <div class="block-key letter" data-1="37">	&#8592;</div>
+            <div class="block-key letter" data-1="40">	&#8595;</div>
+            <div class="block-key letter" data-1="39"> &#8594;</div>
+            <div class="block-key" data-1="96">0</div>
+            <div class="block-key" data-1="110">.</div>
+            
+        </div>
+    </div>
+
+
+
+
+
+    </div>
+
+    <script src="unit_20.js"></script>
+</body>
+
+</html>
